@@ -1,5 +1,5 @@
 # PlanetaDigital
-## Proyecto fin de ciclo DAW
+Proyecto fin de ciclo DAW
 ![imagen](https://github.com/user-attachments/assets/72270f86-4cc9-4ed4-baeb-f2dee2577265)
 ## Índice
 * [Objetivo](#Objetivo)
