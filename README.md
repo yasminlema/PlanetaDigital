@@ -1,5 +1,5 @@
 # PlanetaDigital
-Proyecto fin de ciclo DAW
+![imagen](https://github.com/user-attachments/assets/72270f86-4cc9-4ed4-baeb-f2dee2577265) **_Proyecto fin de ciclo DAW_**
 ## Índice
 * [Objetivo](#Objetivo)
 * [Descripción](#Descripción)
@@ -10,6 +10,12 @@ Proyecto fin de ciclo DAW
    * [Frontend](#Frontend)
    * [Backend](#Backend)
    * [Gestor de BBDD](#Gestor-de-BBDD)
+  * [Guía de estilo](#Guía-de-estilo)
+   * [Estructura](#Estructura)
+   * [Colores](#Colores)
+* [Alcance](#Alcance)
+* [Ejecución](#Ejecución)
+ * [Descripción de las páginas y flujo de datos](#Descripción-de-las-páginas-y-flujo-de-datos)
 ## Objetivo
 El objetivo del proyecto es crear un sitio web donde la gente pueda leer diferentes libros en línea sin necesidad de llevarlos encima, además de la posibilidad de compartir su opinión sobre el libro con otras personas que también lo haya leído.
 ## Descripción
@@ -44,8 +50,17 @@ La estructura del sitio web sigue un esquema claro y organizado para mejorar la 
 ![imagen](https://github.com/user-attachments/assets/15f84492-f5b7-4e3d-af62-37c64eb7747e)  **_#000000_**
 ![imagen](https://github.com/user-attachments/assets/4aa31b2f-e41a-43d8-99e3-5d3905ab4a88)  **_#FFFFFF_**
 
-
-
-
-
-
+Los colores seleccionados crean un contraste adecuado para la legibilidad y son visualmente atractivos. El verde principal transmite frescura y confianza, mientras que los colores neutros equilibran el diseño.
+## Alcance
+El proyecto incluirá las siguientes funcionalidades principales: 
+* Hacer que el sitio web sea fácil de usar y tenga buen aspecto, para que puedan encontrar los libros que desee de forma rápida y sencilla.
+* Se creará un sistema donde los usuarios puedan registrarse e iniciar sesión.
+* Se creará un sistema para el admin para mostrar la lista de libros que hay y pueda añadir más, editar y eliminar.
+* Sistema de suscripción con pago para que los usuarios puedan leer los libros.
+* Crear un sistema donde la gente pueda dar su opinión y hablar sobre los libros.
+* Guardar los libros en favoritos.
+* Barra de búsqueda para que los usuarios puedan encontrar los libros de forma más sencilla.
+## Ejecución
+### Descripción de las páginas y flujo de datos
+Lo primero que vemos es la página principal con una cabecera que está en todas las páginas, con mínimas diferencias, dependiendo de la suscripción. En esta página vemos primero la presentación de la página y sobre nosotros al final del todo de esta están las posibles suscripciones y lo que tiene cada suscripción. Por último, se ve el footer que está en todas las páginas y contiene por una parte los datos de contacto y por otra parte enlaces a las redes sociales. Para iniciar sesión el usuario tendrá que pulsar sobre el icono del muñeco que se encuentra en la cabecera.
+![imagen](https://github.com/user-attachments/assets/42f763d4-10d0-435e-bff9-1b404725c511)
