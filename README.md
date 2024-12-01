@@ -1,5 +1,6 @@
 # PlanetaDigital
-![imagen](https://github.com/user-attachments/assets/72270f86-4cc9-4ed4-baeb-f2dee2577265) **_Proyecto fin de ciclo DAW_**
+## Proyecto fin de ciclo DAW
+![imagen](https://github.com/user-attachments/assets/72270f86-4cc9-4ed4-baeb-f2dee2577265)
 ## Índice
 * [Objetivo](#Objetivo)
 * [Descripción](#Descripción)
@@ -63,4 +64,5 @@ El proyecto incluirá las siguientes funcionalidades principales:
 ## Ejecución
 ### Descripción de las páginas y flujo de datos
 Lo primero que vemos es la página principal con una cabecera que está en todas las páginas, con mínimas diferencias, dependiendo de la suscripción. En esta página vemos primero la presentación de la página y sobre nosotros al final del todo de esta están las posibles suscripciones y lo que tiene cada suscripción. Por último, se ve el footer que está en todas las páginas y contiene por una parte los datos de contacto y por otra parte enlaces a las redes sociales. Para iniciar sesión el usuario tendrá que pulsar sobre el icono del muñeco que se encuentra en la cabecera.
+
 ![imagen](https://github.com/user-attachments/assets/42f763d4-10d0-435e-bff9-1b404725c511)
