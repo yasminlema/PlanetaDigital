@@ -19,4 +19,13 @@ El sitio web va dirigido a personas a las que les gusta leer y aman los libros. 
 ![CS](https://github.com/user-attachments/assets/990affb2-f20f-450b-893f-fd874bb8e859)
 ### Tecnologías a utilizar
 ![html](https://github.com/user-attachments/assets/b45e9826-f272-4431-9746-a1befd6c16a0)  ![css](https://github.com/user-attachments/assets/41e4d165-dd0c-4f68-9bcb-83ba7169c82a)  ![js](https://github.com/user-attachments/assets/35fecb6e-9319-471f-bacc-6432da2ec924)  ![php](https://github.com/user-attachments/assets/5cea446a-2e7f-4e61-b4a8-28a783daac57)
+
 Escogí estas tecnologías ya que son ampliamente conocidas y cuentan con abundante documentación y recursos de aprendizaje, además de que son los lenguajes que hemos dado en el ciclo y quería mejorar mis habilidades en estas tecnologías.
+#### Frontend
+* HTML (HyperText Markup Language)
+* CSS (Cascading Style Sheets)
+* JavaScript
+#### Backend
+* PHP (Hypertext Preprocessor)
+#### Base de datos
+* **_MySQL:_** Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada, por su alta fiabilidad, rendimiento y facilidad de uso, además de su excelente compatibilidad con PHP.
