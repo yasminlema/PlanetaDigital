@@ -7,6 +7,9 @@ Proyecto fin de ciclo DAW
   * [Esquema Entidad Relación](#Esquema-Entidad-Relación)
   * [Casos de uso](#Casos-de-uso)
   * [Tecnologías a utilizar](#Tecnologías-a-utilizar)
+   * [Frontend](#Frontend)
+   * [Backend](#Backend)
+   * [Gestor de BBDD](#Gestor-de-BBDD)
 ## Objetivo
 El objetivo del proyecto es crear un sitio web donde la gente pueda leer diferentes libros en línea sin necesidad de llevarlos encima, además de la posibilidad de compartir su opinión sobre el libro con otras personas que también lo haya leído.
 ## Descripción
@@ -27,5 +30,16 @@ Escogí estas tecnologías ya que son ampliamente conocidas y cuentan con abunda
 * JavaScript
 #### Backend
 * PHP (Hypertext Preprocessor)
-#### Base de datos
-* **_MySQL:_** Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada, por su alta fiabilidad, rendimiento y facilidad de uso, además de su excelente compatibilidad con PHP.
+#### Gestor de BBDD
+* MySQL: Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada, por su alta fiabilidad, rendimiento y facilidad de uso, además de su excelente compatibilidad con PHP.
+### Guía de estilo
+#### Estructura
+La estructura del sitio web sigue un esquema claro y organizado para mejorar la experiencia del usuario. Se utilizan contenedores y flexbox para alinear y distribuir los elementos de manera uniforme. Una estructura bien definida facilita la navegación y la localización de información, mejorando la usabilidad y la satisfacción del usuario.
+#### Colores
+![imagen](https://github.com/user-attachments/assets/54c4856e-a48a-4f94-94de-7a8d1a4fcb5f) ![imagen](https://github.com/user-attachments/assets/ceec7d14-5b46-4c37-bbfd-9fef335d5392) ![imagen](https://github.com/user-attachments/assets/ff38015d-659c-4aa3-b595-94d520711e91) ![imagen](https://github.com/user-attachments/assets/eac96e27-2afc-4bf4-b227-56b182b7aca4) ![imagen](https://github.com/user-attachments/assets/8f722570-439b-49b1-a5b5-c4595fdd698d) ![imagen](https://github.com/user-attachments/assets/15f84492-f5b7-4e3d-af62-37c64eb7747e) ![imagen](https://github.com/user-attachments/assets/4aa31b2f-e41a-43d8-99e3-5d3905ab4a88)
+
+
+
+
+
+
