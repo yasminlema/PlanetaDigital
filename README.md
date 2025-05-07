@@ -38,6 +38,7 @@ Escogí estas tecnologías ya que son ampliamente conocidas y cuentan con abunda
 * JavaScript
 #### Backend
 * Java
+* SpringBoot
 #### Gestor de BBDD
 * MySQL: Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada, por su alta fiabilidad, rendimiento y facilidad de uso, además de su excelente compatibilidad con PHP.
 ### Guía de estilo
