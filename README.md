@@ -19,11 +19,11 @@ Proyecto fin de ciclo DAM
 * [Ejecución](#Ejecución)
  * [Descripción de las páginas y flujo de datos](#Descripción-de-las-páginas-y-flujo-de-datos)
 ## Objetivo
-El objetivo del proyecto es crear un sitio web donde la gente pueda leer diferentes libros en línea sin necesidad de llevarlos encima, además de la posibilidad de compartir su opinión sobre el libro con otras personas que también lo haya leído.
+Crear una plataforma digital que permita a los usuarios leer libros en línea sin necesidad de llevarlos físicamente, además de ofrecer un espacio para intercambiar opiniones con otros lectores.
 ## Descripción
-Los usuarios podrán explorar un gran catálogo de libros sobre diversos temas y géneros en la página. Podrán registrarse de forma gratuita para consultar la lista de libros disponibles y obtener información sobre ellos. Pero para leerlos, deberán pagar una tarifa mensual.
+El sitio web contará con un extenso catálogo de libros de diversos géneros y temas. Los usuarios podrán registrarse gratuitamente para explorar la colección, conocer detalles sobre cada libro y empezar con la lectura de estos.
 ### ¿A quién va dirigido?
-El sitio web va dirigido a personas a las que les gusta leer y aman los libros. Esta web les ofrece una forma sencilla y fácil de acceder a muchos libros de diferentes géneros y todo esto en línea. La página permite a los usuarios buscar y encontrar libros en varias categorías y temas. Además, está destinado a personas que desean la comodidad de acceder a su biblioteca desde cualquier dispositivo conectado a Internet. Los usuarios pueden explorar y guardar en favoritos una amplia gama de libros. También pueden interactuar con otros lectores dejando comentarios y expresando sus puntos de vista. Al suscribirse anualmente, los lectores pueden disfrutar de acceso ilimitado a todos los libros que se ofrecen, lo que garantiza una experiencia de lectura de alta calidad.
+Dirigido a amantes de la lectura que buscan una forma práctica y accesible de disfrutar de los libros desde cualquier dispositivo conectado a Internet. La plataforma facilitará la búsqueda de títulos por categorías y nombre, permitirá guardar favoritos y dejar comentarios y valoraciones de los libros.
 ### Esquema Entidad Relación
 ![ER](https://github.com/user-attachments/assets/6c593c06-1f22-4014-8af3-102f5e073b2e)
 ### Casos de uso
@@ -59,7 +59,6 @@ El proyecto incluirá las siguientes funcionalidades principales:
 * Hacer que el sitio web sea fácil de usar y tenga buen aspecto, para que puedan encontrar los libros que desee de forma rápida y sencilla.
 * Se creará un sistema donde los usuarios puedan registrarse e iniciar sesión.
 * Se creará un sistema para el admin para mostrar la lista de libros que hay y pueda añadir más, editar y eliminar.
-* Sistema de suscripción con pago para que los usuarios puedan leer los libros.
 * Crear un sistema donde la gente pueda dar su opinión y hablar sobre los libros.
 * Guardar los libros en favoritos.
 * Barra de búsqueda para que los usuarios puedan encontrar los libros de forma más sencilla.
