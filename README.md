@@ -65,6 +65,6 @@ El proyecto incluirá las siguientes funcionalidades principales:
 * Barra de búsqueda para que los usuarios puedan encontrar los libros de forma más sencilla.
 ## Ejecución
 ### Descripción de las páginas y flujo de datos
-Lo primero que vemos es la página principal con una cabecera que está en todas las páginas, con mínimas diferencias, dependiendo de la suscripción. En esta página vemos primero la presentación de la página y sobre nosotros al final del todo de esta están las posibles suscripciones y lo que tiene cada suscripción. Por último, se ve el footer que está en todas las páginas y contiene por una parte los datos de contacto y por otra parte enlaces a las redes sociales. Para iniciar sesión el usuario tendrá que pulsar sobre el icono del muñeco que se encuentra en la cabecera.
-
-![imagen](https://github.com/user-attachments/assets/42f763d4-10d0-435e-bff9-1b404725c511)
+Al acceder a la página web, lo primero que veremos será la página principal, visible únicamente cuando la sesión no está iniciada. En ella, podremos encontrar lo que podremos hacer si nos suscribimos.
+Además, la cabecera será prácticamente la misma en todas las páginas, aunque algunos botones en forma de iconos aparecerán o desaparecerán dependiendo de si la sesión está iniciada, si somos suscriptores o administradores.
+Por otro lado, el footer será uniforme en todas las páginas, excepto en la de inicio de sesión.
