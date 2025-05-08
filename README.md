@@ -7,7 +7,6 @@ Proyecto fin de ciclo DAM
 * [Descripción](#Descripción)
   * [¿A quién va dirigido?](#A-quién-va-dirigido)
   * [Esquema Entidad Relación](#Esquema-Entidad-Relación)
-  * [Casos de uso](#Casos-de-uso)
   * [Tecnologías a utilizar](#Tecnologías-a-utilizar)
   * [Frontend](#Frontend)
   * [Backend](#Backend)
@@ -30,8 +29,6 @@ El sitio web contará con un extenso catálogo de libros de diversos géneros y 
 Dirigido a amantes de la lectura que buscan una forma práctica y accesible de disfrutar de los libros desde cualquier dispositivo conectado a Internet. La plataforma facilitará la búsqueda de títulos por categorías y nombre, permitirá guardar favoritos y dejar comentarios y valoraciones de los libros.
 ### Esquema Entidad Relación
 ![ER](https://github.com/user-attachments/assets/6c593c06-1f22-4014-8af3-102f5e073b2e)
-### Casos de uso
-![CS](https://github.com/user-attachments/assets/990affb2-f20f-450b-893f-fd874bb8e859)
 ### Tecnologías a utilizar
 ![imagen](https://github.com/user-attachments/assets/a2d5b7d7-ebdd-44b8-bdaf-54a21f97ca18) ![imagen](https://github.com/user-attachments/assets/d094ba54-5040-415f-b9b3-cd5bf35ab31d) ![imagen](https://github.com/user-attachments/assets/a5cba7c4-cd8e-4475-a7d3-8f63a1811c99)
 
