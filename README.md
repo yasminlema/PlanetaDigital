@@ -18,6 +18,9 @@ Proyecto fin de ciclo DAM
 * [Alcance](#Alcance)
 * [Ejecución](#Ejecución)
  * [Descripción de las páginas y flujo de datos](#Descripción-de-las-páginas-y-flujo-de-datos)
+* [Problemas y cambios](#Problemas-y-cambios)
+ *[Cambio de tecnologia front](#Cambio-de-tecnologia-front)
+ *[Cambio en el numero de usuarios](#Cambio-en-el-numero-de-usuarios)
 ## Objetivo
 Crear una plataforma digital que permita a los usuarios leer libros en línea sin necesidad de llevarlos físicamente, además de ofrecer un espacio para intercambiar opiniones con otros lectores.
 ## Descripción
@@ -67,9 +70,9 @@ El proyecto incluirá las siguientes funcionalidades principales:
 Al acceder a la página web, lo primero que veremos será la página principal, visible únicamente cuando la sesión no está iniciada. En ella, podremos encontrar lo que podremos hacer si nos suscribimos.
 Además, la cabecera será prácticamente la misma en todas las páginas, aunque algunos botones en forma de iconos aparecerán o desaparecerán dependiendo de si la sesión está iniciada, si somos suscriptores o administradores.
 Por otro lado, el footer será uniforme en todas las páginas, excepto en la de inicio de sesión.
-# Problemas y cambios
-## Cambio de tecnologia front
+## Problemas y cambios
+### Cambio de tecnologia front
 Empece usando CSS para los estilos de mi página web, pero hacerla responsiva se me complicaba bastante. Luego descubrí Tailwind CSS, lo probé y me resultó mucho más fácil darle el aspecto que quería y hacerla responsiva.
-## Cambio en el numero de usuarios
+### Cambio en el numero de usuarios
 Al principio, pensé en cuatro tipos de usuarios para mi página web. El primero sería el usuario no registrado, que solo tendría acceso a la página principal con información sobre las suscripciones. Luego, habría un segundo usuario que podría ver el catálogo de libros, y un tercero que, tras pagar una cuota anual, tendría acceso completo: lectura, comentarios, favoritos, etc. Finalmente, el usuario administrador podría hacer todo lo anterior, además de gestionar los libros (añadir, editar y borrar).
 Sin embargo, decidí eliminar la opción de suscripción con pago anual, ya que el usuario intermedio, con acceso solo al catálogo, no tenía mucho sentido. Además, no puedo cobrar por el contenido, ya que los libros son de dominio público.
