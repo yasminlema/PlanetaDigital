@@ -21,6 +21,7 @@ Proyecto fin de ciclo DAM
 * [Problemas y cambios](#Problemas-y-cambios)
   * [Cambio de tecnologia front](#Cambio-de-tecnologia-front)
   * [Cambio en el numero de usuarios](#Cambio-en-el-numero-de-usuarios)
+  * [Problemas con las imagenes](#Problemas-con-las-imagenes)
 ## Objetivo
 Crear una plataforma digital que permita a los usuarios leer libros en línea sin necesidad de llevarlos físicamente, además de ofrecer un espacio para intercambiar opiniones con otros lectores.
 ## Descripción
