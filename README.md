@@ -65,9 +65,13 @@ El proyecto incluirá las siguientes funcionalidades principales:
 * Barra de búsqueda para que los usuarios puedan encontrar los libros de forma más sencilla.
 ## Ejecución
 ### Descripción de las páginas y flujo de datos
-Al acceder a la página web, lo primero que veremos será la página principal, visible únicamente cuando la sesión no está iniciada. En ella, podremos encontrar lo que podremos hacer si nos suscribimos.
-Además, la cabecera será prácticamente la misma en todas las páginas, aunque algunos botones en forma de iconos aparecerán o desaparecerán dependiendo de si la sesión está iniciada, si somos suscriptores o administradores.
-Por otro lado, el footer será uniforme en todas las páginas, excepto en la de inicio de sesión.
+Al acceder a la página web, lo primero que veremos será la página principal, visible solo cuando la sesión no está iniciada. En ella, encontraremos información sobre las suscripciones y lo que podremos hacer si nos registramos.
+La cabecera será prácticamente la misma en todas las páginas, aunque algunos iconos aparecerán o desaparecerán dependiendo de si la sesión está iniciada, si somos suscriptores o administradores. Además, el logo siempre nos llevará a la página principal que corresponda a nuestro tipo de usuario.
+Por otro lado, el footer se mantendrá uniforme en todas las páginas, excepto en la de inicio de sesión.
+Desde la página principal, podremos acceder a la pantalla de inicio de sesión si ya tenemos cuenta, o a la de registro si somos nuevos usuarios. Si el registro es exitoso, nos llevará directamente a la página de login.
+Una vez iniciada la sesión, seremos redirigidos a la página principal de usuarios logueados, donde tendremos acceso a todos los libros. En el header, el icono de login cambiará por un desplegable que mostrará nuestro nombre, permitiéndonos acceder al perfil de usuario y cerrar sesión. En el perfil, podremos ver y modificar nuestra información personal.
+De vuelta en la página principal, además del cambio en el icono de sesión, aparecerán dos nuevos iconos: uno para la lista de libros favoritos del usuario y otro exclusivo para el administrador, donde podrá editar, añadir y eliminar libros. También desde el header se podrá realizar la búsqueda de libros.
+Desde la página principal, podremos explorar las diferentes categorías de libros y ver todos los títulos de cada una. Además, el administrador podrá destacar ciertos libros, que aparecerán resaltados en la interfaz. En cualquier página que liste libros, podremos hacer clic sobre la imagen de un título para acceder a su información, la opción de lectura y los comentarios.
 ## Problemas y cambios
 ### Cambio de tecnologia front
 Empece usando CSS para los estilos de mi página web, pero hacerla responsiva se me complicaba bastante. Luego descubrí Tailwind CSS, lo probé y me resultó mucho más fácil darle el aspecto que quería y hacerla responsiva.
