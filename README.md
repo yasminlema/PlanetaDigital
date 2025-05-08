@@ -44,7 +44,7 @@ Escogí estas tecnologías ya que son ampliamente conocidas y cuentan con abunda
 * Java
 * SpringBoot
 #### Gestor de BBDD
-* MySQL: Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada, por su alta fiabilidad, rendimiento y facilidad de uso, además de su excelente compatibilidad con PHP.
+* MySQL: Es un sistema de gestión de bases de datos relacional de código abierto. Elegí esta base de datos porque es con la que estoy más familiarizada.
 ### Guía de estilo
 #### Estructura
 La estructura del sitio web sigue un esquema claro y organizado para mejorar la experiencia del usuario. Se utilizan contenedores y flexbox para alinear y distribuir los elementos de manera uniforme. Una estructura bien definida facilita la navegación y la localización de información, mejorando la usabilidad y la satisfacción del usuario.
