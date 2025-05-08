@@ -38,7 +38,7 @@ Dirigido a amantes de la lectura que buscan una forma práctica y accesible de d
 Escogí estas tecnologías ya que son ampliamente conocidas y cuentan con abundante documentación y recursos de aprendizaje, además de que son los lenguajes que hemos dado en el ciclo y quería mejorar mis habilidades en estas tecnologías.
 #### Frontend
 * HTML (HyperText Markup Language)
-* CSS (Cascading Style Sheets)
+* CSS (Cascading Style Sheets) -> Tailwind CSS
 * JavaScript
 #### Backend
 * Java
