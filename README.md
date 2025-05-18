@@ -82,3 +82,6 @@ Al principio, pensé en cuatro tipos de usuarios para mi página web. El primero
 Sin embargo, decidí eliminar la opción de suscripción con pago anual, ya que el usuario intermedio, con acceso solo al catálogo, no tenía mucho sentido. Además, no puedo cobrar por el contenido, ya que los libros son de dominio público.
 ### Problemas con las imagenes
 Tuve problemas con las imágenes del header y footer, ya que solo se cargaban en la primera página. Cuando redirigía a otra, simplemente no aparecían. Al final, la solución era bastante sencilla: usar direcciones absolutas. Sin ellas, al cambiar de página, el sistema buscaba las imágenes en la ruta equivocada.
+### Problema con el formulario de contacto
+Tuve problemas con el formulario de contacto para enviar los correos porque parecia que estaba funcionando todo bien, pero no recibía los correos. Esto sucedia porque gmail lo tenia capado el enviar correos sin ser desde la plataforma. Lo solucione creando una clave para aplicaciones externas en gmail.
+Ademas de este problema tambien tuve otro que el envio del correo tardaba un poco y si le dabas en ese tiempo a enviar varias veces, se enviaba varias veces ese correo. Lo solucione poniendo una pantalla de carga y bloqueando el boton de enviar.
