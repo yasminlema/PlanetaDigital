@@ -85,3 +85,5 @@ Tuve problemas con las imágenes del header y footer, ya que solo se cargaban en
 ### Problema con el formulario de contacto
 Tuve problemas con el formulario de contacto para enviar los correos porque parecia que estaba funcionando todo bien, pero no recibía los correos. Esto sucedia porque gmail lo tenia capado el enviar correos sin ser desde la plataforma. Lo solucione creando una clave para aplicaciones externas en gmail.
 Ademas de este problema tambien tuve otro que el envio del correo tardaba un poco y si le dabas en ese tiempo a enviar varias veces, se enviaba varias veces ese correo. Lo solucione poniendo una pantalla de carga y bloqueando el boton de enviar.
+### Problemas con la subida de imagenes y pdf
+Aunque el codigo en principio parecia que estaba correcto al enviar el formulario la imagen y el pdf del libro no se subian y no se añadian a la carpeta correspondia. La solucion encontrada a este problema fue que en vez de tenerlos en las rutas de los templates las imagees y pdf hago que se añadan en una carpeta en la raiz del proyecto y cambie la ruta que tiene definida springboot como predefinida a esa carpeta.
