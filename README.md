@@ -72,7 +72,8 @@ Desde la página principal, podremos acceder a la pantalla de inicio de sesión 
 Una vez iniciada la sesión, seremos redirigidos a la página principal de usuarios logueados, donde tendremos acceso a todos los libros. En el header, el icono de login cambiará por un desplegable que mostrará nuestro nombre, permitiéndonos acceder al perfil de usuario y cerrar sesión. En el perfil, podremos ver y modificar nuestra información personal.
 De vuelta en la página principal, además del cambio en el icono de sesión, aparecerán dos nuevos iconos: uno para la lista de libros favoritos del usuario y otro exclusivo para el administrador, donde podrá editar, añadir y eliminar libros. También desde el header se podrá realizar la búsqueda de libros.
 Desde la página principal, podremos explorar las diferentes categorías de libros y ver todos los títulos de cada una. Además, el administrador podrá destacar ciertos libros, que aparecerán resaltados en la interfaz. En cualquier página que liste libros, podremos hacer clic sobre la imagen de un título para acceder a su información, la opción de lectura y los comentarios.
-![Screenshot 2025-05-08 095824](https://github.com/user-attachments/assets/973db3ca-c1a6-4c59-9430-d724f8e752e4)
+![diagrama2 drawio](https://github.com/user-attachments/assets/0791053c-e23e-4f89-8971-f81b9cad44fd)
+
 
 ## Problemas y cambios
 ### Cambio de tecnologia front
