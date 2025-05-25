@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Planeta Digital</title>
+</head>
+
+<body class="min-h-screen flex flex-col bg-gray-100">
+
+<header th:replace="~{fragments/header :: header}"></header>
+
+<main class="flex-grow flex items-center justify-center p-6">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+        <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">
+            Formulario de Contacto
+        </h2>
+
+        <form id="contactoForm" class="space-y-5">
+            <div>
+                <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required
+                       class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 text-base">
+            </div>
+
+            <div>
+                <label for="correo" class="block text-sm font-medium text-gray-700">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required
+                       class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 text-base">
+            </div>
+
+            <div>
+                <label for="asunto" class="block text-sm font-medium text-gray-700">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required
+                       class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 text-base">
+            </div>
+
+            <div>
+                <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required rows="5"
+                          class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 text-base"></textarea>
+            </div>
+
+            <button type="submit" id="botonEnviar"
+                    class="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition-all duration-300 transform mt-4 text-base">
+                Enviar
+            </button>
+        </form>
+    </div>
+    <div id="loader" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-green-500 border-solid"></div>
+    </div>
+</main>
+
+<footer th:replace="~{fragments/footer :: footer}" class="mt-auto"></footer>
+
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var loginIcon = document.getElementById('loginIcon');
+        var loginDropdown = document.getElementById('loginDropdown');
+
+        loginIcon.addEventListener('click', function (event) {
+            event.preventDefault();
+            loginDropdown.classList.toggle('hidden');
+        });
+
+        window.addEventListener('click', function (event) {
+            if (!event.target.closest('.login-container')) {
+                loginDropdown.classList.add('hidden');
+            }
+        });
+    });
+
+    document.getElementById('contactoForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const loader = document.getElementById('loader');
+        const botonEnviar = document.getElementById('botonEnviar');
+
+        loader.classList.remove('hidden');
+        botonEnviar.disabled = true;
+        botonEnviar.classList.add('opacity-50', 'cursor-not-allowed');
+
+        const data = {
+            nombre: document.getElementById('nombre').value,
+            correo: document.getElementById('correo').value,
+            asunto: document.getElementById('asunto').value,
+            mensaje: document.getElementById('mensaje').value
+        };
+
+        fetch('http://localhost:8080/api/formularioContacto', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(res => res.text())
+        .then(msg => {
+            alert('Mensaje enviado correctamente');
+            document.getElementById('contactoForm').reset();
+        })
+        .catch(err => {
+            alert('Error al enviar el mensaje');
+        })
+        .finally(() => {
+            loader.classList.add('hidden');
+            botonEnviar.disabled = false;
+            botonEnviar.classList.remove('opacity-50', 'cursor-not-allowed');
+        });
+    });
+
+
+</script>

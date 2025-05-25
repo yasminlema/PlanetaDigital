@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Header</title>
+</head>
+<body>
+<header th:fragment="header" class="bg-green-500 text-white p-4 flex justify-between items-center px-6 py-4">
+  <div id="logo">
+    <a th:href="@{${tipocuenta == 10 || tipocuenta == 20 ? '/paginaPrincipalSesionIniciada' : '/'}}">
+      <img src="/imagenes/logo/logo.png" alt="Logo" class="w-44 h-auto">
+    </a>
+  </div>
+
+  <nav>
+    <ul class="flex items-center gap-6">
+      <th:block th:if="${tipocuenta != null}">
+        <li>
+          <form action="buscarLibros" method="GET" class="relative">
+            <input
+                    type="text"
+                    name="buscar"
+                    placeholder="Buscar libros"
+                    class="pl-10 pr-4 py-2 w-64 bg-white text-gray-800 placeholder-gray-400 rounded-full shadow-md border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+            />
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1116.65 2a7.5 7.5 0 010 14.65z" />
+            </svg>
+          </form>
+
+        </li>
+
+        <th:block th:if="${tipocuenta == 10}">
+          <li>
+            <a th:href="@{/admin}">
+              <img src="/imagenes/iconos/admin.svg" alt="admin" class="w-8 h-8 hover:scale-125 transition-transform">
+            </a>
+          </li>
+        </th:block>
+
+        <th:block th:if="${tipocuenta == 10 || tipocuenta == 20}">
+          <li>
+            <a th:href="@{/misFavoritos}" class="text-gray-700 hover:text-indigo-600">
+            <img src="/imagenes/iconos/corazon.svg" alt="favoritos" class="w-8 h-8 hover:scale-125 transition-transform">
+            </a>
+          </li>
+        </th:block>
+
+        <li class="relative login-container">
+          <a href="#" id="loginIcon">
+            <img src="/imagenes/iconos/login.svg" alt="Login" class="w-8 h-8 hover:scale-125 transition-transform">
+          </a>
+
+          <div id="loginDropdown" class="dropdown-content absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg hidden z-50">
+            <a class="block px-4 py-2 text-gray-700 cursor-default">
+              <strong><i th:text="${usuarioNombre}">Usuario conectado</i></strong>
+            </a>
+            <a href="/perfil" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Perfil</a>
+            <a href="/salir" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Cerrar sesión</a>
+          </div>
+        </li>
+      </th:block>
+
+      <th:block th:if="${tipocuenta == null}">
+        <li>
+          <a th:href="@{/login}">
+            <img src="/imagenes/iconos/login.svg" alt="Login" class="w-8 h-8 hover:scale-125 transition-transform">
+          </a>
+        </li>
+      </th:block>
+    </ul>
+  </nav>
+</header>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Planeta Digital</title>
+</head>
+
+<body class="min-h-screen flex flex-col bg-gray-100">
+
+<header th:replace="~{fragments/header :: header}"></header>
+
+<main class="flex-grow flex flex-col items-center justify-center p-6">
+    <section id="sobreMi" class="bg-white p-8 rounded-lg shadow-lg w-full max-w-3xl">
+        <h2 class="text-3xl font-semibold text-green-600 text-center mb-8">Sobre Mi</h2>
+
+        <div class="px-6 text-justify space-y-6 text-base text-gray-700">
+            <p>
+                Bienvenid@ a tu plataforma de confianza para sumergirte en el maravilloso mundo de los libros desde cualquier lugar y en cualquier momento.
+                Mi misión es fomentar el amor por la lectura y hacer que sea accesible para todos, ofreciendo una gran colección de libros digitales de múltiples géneros.
+            </p>
+            <p>
+                <strong class="font-semibold">Mi historia</strong><br>
+                <i>Planeta Digital</i> nació de la pasión por los libros y el deseo de compartir el placer de la lectura con una audiencia global.
+                Fundada por una entusiasta de la literatura y la tecnología, mi plataforma ha crecido desde sus humildes comienzos hasta convertirse en un recurso indispensable para lectores de todo el mundo.
+            </p>
+            <p>
+                <strong class="font-semibold">Qué se ofrece</strong><br>
+                <strong class="font-semibold">Amplia Colección:</strong> Desde clásicos intemporales hasta las últimas novedades, mi biblioteca digital cuenta con una selección cuidadosamente curada de miles de títulos.<br>
+                <strong class="font-semibold">Acceso Instantáneo:</strong> Disfruta de tus libros favoritos al instante, sin necesidad de esperar por envíos o hacer colas en la biblioteca.<br>
+                <strong class="font-semibold">Comunidad de Lectores:</strong> Únete a mi comunidad de amantes de los libros, comparte tus reseñas y comentarios.
+            </p>
+            <p>
+                <strong class="font-semibold">Compromiso</strong><br>
+                En <i>Planeta Digital</i>, creemos que la lectura es una puerta a infinitos mundos y conocimientos. Me comprometemos a:<br>
+                <strong class="font-semibold">Promover la Inclusión:</strong> Ofrecer una variedad de títulos que reflejen diversas voces y experiencias.<br>
+                <strong class="font-semibold">Innovar Constantemente:</strong> Implementar las últimas tecnologías para mejorar tu experiencia de lectura y mantenernos a la vanguardia de la revolución digital.
+            </p>
+            <p>
+                Gracias por elegir <i>Planeta Digital</i>. Espero que disfrutes cada página y que nuestra plataforma se convierta en tu compañera ideal en cada viaje literario. ¡Feliz lectura!
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer th:replace="~{fragments/footer :: footer}" class="mt-auto"></footer>
+
+</body>
+
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var loginIcon = document.getElementById('loginIcon');
+        var loginDropdown = document.getElementById('loginDropdown');
+
+        loginIcon.addEventListener('click', function (event) {
+            event.preventDefault();
+            loginDropdown.classList.toggle('hidden');
+        });
+
+        window.addEventListener('click', function (event) {
+            if (!event.target.closest('.login-container')) {
+                loginDropdown.classList.add('hidden');
+            }
+        });
+    });
+</script>
